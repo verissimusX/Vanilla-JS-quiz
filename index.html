@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css " href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Javascript Quiz</title>
+</head>
+
+<body>
+
+    <div id="container">
+        <header>
+            <h1>Javascript Quiz</h1>
+            <p>Is Matt Gilroy the right developer for you?</strong></p>
+        </header>
+        <section>
+            <div id="results"></div>
+
+            <form name="quizForm" onsubmit="return submitAnswers()" action="">
+                <h4>1. Are you currently hiring for developers and/or Programmers</h4>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio_one" id="radio11" value="option1">
+                    <label class="form-check-label" for="radio11">
+                        Yes
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio_one" id="radio12" value="option2">
+                    <label class="form-check-label" for="radio12">
+                        No
+                    </label>
+                </div>
+
+                <h4>2. Do you want a your developers to pursue learning outside of work and learn new languages?</h4>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio_two" id="radio21" value="option1">
+                    <label class="form-check-label" for="radio21">
+                        Yes
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio_two" id="radio22" value="option2">
+                    <label class="form-check-label" for="radio22">
+                        No
+                    </label>
+                </div>
+                <h4>3. Do you prefer employees that view management and team leads not only as bosses, but also as
+                    valuable resources that will help further develop
+                    their technical expertise?</h4>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio_three" id="radio31" value="option1">
+                    <label class="form-check-label" for="radio31">
+                        Yes
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio_three" id="radio32" value="option2">
+                    <label class="form-check-label" for="radio32">
+                        No
+                    </label>
+                </div>
+                <h4>4. Would you like your developers to be comfortable working with JavaScript and Javascript libraries
+                    such as jQuery and React?</h4>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio_four" id="radio41" value="option1">
+                    <label class="form-check-label" for="radio41">
+                        Yes
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio_four" id="radio42" value="option2">
+                    <label class="form-check-label" for="radio42">
+                        No
+                    </label>
+                </div>
+
+                <h4>5. Do you expect your developers to work well on teams?</h4>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio_five" id="radio51" value="option1">
+                    <label class="form-check-label" for="radio51">
+                        Yes
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio_five" id="radio52" value="option2">
+                    <label class="form-check-label" for="radio52">
+                        No
+                    </label>
+                </div>
+                <div id="button_control">
+                    <button type="submit" class="btn-primary" id="submit-button">Submit Answers</button>
+                </div>
+            </form>
+        </section>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+
+</html>
